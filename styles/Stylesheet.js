@@ -21,6 +21,7 @@ export const styles = StyleSheet.create({
     padding: 20, // Espaçamento interno
     alignItems: "center", // Centraliza o que estiver dentro da BOX
     justifyContent: "center", // Centraliza o que estiver dentro da BOX
+    borderRadius: 11,
   },
 
   txt: {
