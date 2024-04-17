@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
   },
 
   box: {
-    height: 50, // Define a altura dos componentes box
+    height: 150, // Define a altura dos componentes box
     padding: 20, // Espaçamento interno
     alignItems: "center", // Centraliza o que estiver dentro da BOX
     justifyContent: "center", // Centraliza o que estiver dentro da BOX
