@@ -18,14 +18,22 @@ export default function App() {
   // Renderiza os Componentes Views(box) com seu respectivo Texto.
   // Recebe nosso array de objeto, nomeado como data!
   const renderItem = ({ item }) => (
-    <View style={[styles.box, { backgroundColor: item.backgroundColor }]}>
+    <View
+      style={[
+        styles.box,
+        styles.box2,
+        { backgroundColor: item.backgroundColor },
+      ]}
+    >
       <Text style={styles.txt}>{item.livro}</Text>
     </View>
   );
 
   return (
     <View style={styles.container}>
-      <View style={styles.header}></View>
+      <View style={styles.header}>
+        <View style={styles.box2}></View>
+      </View>
       <FlatList
         horizontal={true}
         data={data} // Ele está recebendo todos os objetos do nosso array data

@@ -16,6 +16,12 @@ export const styles = StyleSheet.create({
     alignItems: "center", // Centraliza o que estiver dentro da BOX
     justifyContent: "center", // Centraliza o que estiver dentro da BOX
   },
+  box2: {
+    height: -100, // Define a altura dos componentes box
+    padding: 20, // Espaçamento interno
+    alignItems: "center", // Centraliza o que estiver dentro da BOX
+    justifyContent: "center", // Centraliza o que estiver dentro da BOX
+  },
 
   txt: {
     fontSize: 30, // Define o tamanho da fonte
